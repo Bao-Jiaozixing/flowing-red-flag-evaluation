@@ -1,16 +1,35 @@
-## Requirements
-- Python ≥ 3.7  
-- Tkinter (bundled with standard CPython)  
-- Optional: `pandas`, `openpyxl` for Excel export (`pip install pandas openpyxl`)
+# 流动红旗评比系统 (Flowing Red Flag Evaluation System)
 
-## Usage
-1. Launch the app.  
-2. Double-click any cell to edit scores.  
-3. Press **Calculate Totals** to see the ranking.  
-4. **Export** results via the “Tools” menu.
+这是一个用于学校班级评比的系统，主要用于管理流动红旗评比的各项指标，包括早迟到、早读、节能开窗、仪容仪表、跑操、午休、卫生、巡视、及时上交文件和宿舍等。
 
-## License
-Licensed under [CC BY-SA 3.0](LICENSE).
+目前仅仅适用于北师大燕化附中的规章规定
 
-## Contributing
-Pull requests welcome! For bugs or features, open an issue.
+## 功能特点
+
+- 支持多种评比项目设置
+- 可自定义班级列表
+- 数据持久化存储
+- 历史记录管理（撤销/重做）
+- 日志记录功能
+- 美观的图形用户界面
+
+## 使用说明
+
+1. 运行 `liudong.py` 启动程序
+2. 在界面中输入各项评比数据
+3. 系统会自动计算平均分和总分
+4. 可以导出数据到文件
+
+## 许可证
+
+本项目采用 [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh) 许可证。
+
+您可以自由地：
+- **共享** — 在任何媒介以任何形式复制、发行本作品
+- **演绎** — 修改、转换或以本作品为基础进行创作
+
+惟须遵守下列条件：
+- **署名** — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+- **相同方式共享** — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议分发您贡献的作品。
+
+更多信息请查看 [LICENSE](LICENSE) 文件。
